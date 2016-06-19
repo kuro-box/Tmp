@@ -14,13 +14,17 @@ namespace TestWebForAzure
         {
             try
             {
-                var key = "mysettings";
-                var value = ConfigurationManager.AppSettings[key];
-                lblMessage.Text = value ?? "Empty";
+                var k1 = "mysettings";
+                var v1 = ConfigurationManager.AppSettings[k1];
+
+                var k2 = "testDb";
+                var v2 = ConfigurationManager.ConnectionStrings[k2].ConnectionString;
+
+                lblMessage.Text = $"test_app_setting:{v1 ?? "Empty"}; test_connection_string:{v2 ?? "Empty"}";
             }
             catch (Exception ex)
             {
-                lblMessage.Text = ex.Message;
+                lblMessage.Text = $"Exception:{ex.Message}";
             }
         }
     }
