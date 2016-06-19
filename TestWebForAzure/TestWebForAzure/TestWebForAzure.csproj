@@ -67,6 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\k2 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\k2 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\k2-debug - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\k2-debug - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\k2-release - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\k2-release - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
