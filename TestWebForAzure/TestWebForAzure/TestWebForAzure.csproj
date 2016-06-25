@@ -100,8 +100,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\bao1.png" />
     <Content Include="default.aspx" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\k-test - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\v-server.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

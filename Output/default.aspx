@@ -11,8 +11,7 @@
     <form id="form1" runat="server">
         <div>
             <h1>Hello, This is a default page!</h1>
-            <asp:Image ID="Image1" runat="server" ImageUrl="~/Assets/Images/bao1.png"/>
-            <p>Test for Azure: 涵涵好可爱啊！</p>
+            <p>Test for Azure</p>
             <asp:Label ID="lblMessage" runat="server" Text="Label"></asp:Label>
         </div>
     </form>
