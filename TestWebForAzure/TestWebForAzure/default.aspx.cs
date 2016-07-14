@@ -10,6 +10,11 @@ namespace TestWebForAzure
 {
     public partial class _default : System.Web.UI.Page
     {
+        /// <summary>
+        /// 加载页面
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected void Page_Load(object sender, EventArgs e)
         {
             try
